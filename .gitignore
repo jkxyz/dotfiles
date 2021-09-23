@@ -1,0 +1,3 @@
+.emacs.d/straight/build/
+.emacs.d/straight/repos/
+.emacs.d/straight/build-cache.el
