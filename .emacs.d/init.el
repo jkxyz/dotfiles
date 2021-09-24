@@ -242,9 +242,6 @@
 ;; Completions
 ;; ===========
 
-;; Ivy
-;; ---
-
 (setq enable-recursive-minibuffers t)
 
 ;; Preserve minibuffer history
@@ -282,3 +279,13 @@
   (setq completion-styles '(orderless)
         completion-category-defaults nil
         completion-category-overrides '((file (styles . (partial-completion))))))
+
+(use-package marginalia
+  :after vertico
+  :init
+  (marginalia-mode))
+
+;; Magit
+;; =====
+
+(use-package magit)
