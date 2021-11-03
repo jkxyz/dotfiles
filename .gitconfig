@@ -1,0 +1,6 @@
+[user]
+	email = josh@joshkingsley.me
+	name = Josh Kingsley
+
+[core]
+	excludesFile = ~/.gitignoreglobal

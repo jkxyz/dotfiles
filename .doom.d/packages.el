@@ -52,3 +52,10 @@
 (package! smartparens)
 
 (package! evil-cleverparens)
+
+(package! graphql-mode)
+
+;; HACK Temporary fix for correctly starting shadow repl
+(package! parseclj :recipe (:build (:not compile)))
+
+(package! vulpea)
